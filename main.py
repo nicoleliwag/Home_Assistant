@@ -109,7 +109,13 @@ if __name__ == "__main__":
         root.mainloop()  # keep the window open so the error is visible, but don't start the loop
         raise SystemExit(1)
 
-    ai = AIEngine()
+    try:
+        ai = AIEngine()
+    except Exception as e:
+        logging.error(f"Fatal: could not initialize AIEngine: {e}")
+        gui.update_status(f"AI engine init failed: {e}")
+        root.mainloop()  # keep the window open so the error is visible, but don't start the loop
+        raise SystemExit(1)
 
     # Start the assistant loop in a background thread
     ai_thread = threading.Thread(target=assistant_loop, args=(gui, voice, ai), daemon=True)
