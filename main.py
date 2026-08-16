@@ -22,6 +22,21 @@ GREETING_WORDS = ("hi", "hello", "hey", "yo", "sup", "greetings",
 GREETING_REPLY = "Hello! I'm Yuri, your home assistant. How can I help?"
 
 
+def normalize_transcript(text):
+    """Correct known Vosk mis-hearings before the text goes anywhere else.
+
+    Vosk's small acoustic model frequently transcribes "off" as "of" --
+    they're acoustically close and "of" is far more common in its training
+    data, so it wins ties. E.g. "kitchen off" -> "kitchen of". Since this
+    app only ever handles smart-home commands, "of" has no legitimate
+    standalone use here, so any standalone "of" is safely corrected to
+    "off" (covers "kitchen of" -> "kitchen off", "turn of the ac" -> "turn
+    off the ac", etc.). Word-boundaried so it won't touch "of" inside other
+    words.
+    """
+    return re.sub(r'\bof\b', 'off', text, flags=re.IGNORECASE)
+
+
 def is_greeting(user_text):
     """True if the utterance is just a greeting (with or without the wake word),
     not a smart-home command. Kept short and keyword-only so it doesn't
@@ -52,6 +67,7 @@ def assistant_loop(gui, voice, ai):
             user_text = voice.listen()
             
             if user_text:
+                user_text = normalize_transcript(user_text)
                 logging.info(f"User Transcribed: {user_text}")
                 gui.update_status(f"Heard: {user_text}")
 

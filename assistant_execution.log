@@ -26257,3 +26257,751 @@
 2026-08-16 20:56:07,644 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
 2026-08-16 20:56:10,092 - INFO - Spoke response: Living Room Light is now on.
 2026-08-16 20:56:10,095 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-16 23:58:33,215 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-16 23:58:33,216 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-16 23:58:34,929 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-16 23:58:34,940 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-16 23:58:34,943 - INFO - Model 'qwen2.5:1.5b' not found locally. Pulling it now (one-time download)...
+2026-08-16 23:59:06,938 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-16 23:59:06,939 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-16 23:59:08,480 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-16 23:59:08,487 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-16 23:59:08,487 - INFO - Model 'qwen2.5:1.5b' not found locally. Pulling it now (one-time download)...
+2026-08-17 00:01:28,070 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:01:28,071 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:01:31,600 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:01:31,612 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:01:31,613 - INFO - Model 'qwen2.5:1.5b' not found locally. Pulling it now (one-time download)...
+2026-08-17 00:01:32,636 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:01:32,636 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:01:34,076 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:01:34,082 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:01:34,083 - INFO - Model 'qwen2.5:1.5b' not found locally. Pulling it now (one-time download)...
+2026-08-17 00:02:56,715 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/pull "HTTP/1.1 200 OK"
+2026-08-17 00:02:56,716 - INFO - Model 'qwen2.5:1.5b' pulled successfully.
+2026-08-17 00:02:56,717 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:02:56,717 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:03:38,356 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:03:38,357 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:03:39,834 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:03:39,842 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:03:39,845 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:03:43,571 - INFO - User Transcribed: hey are you
+2026-08-17 00:03:49,162 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:03:49,173 - INFO - Greeting detected and answered.
+2026-08-17 00:03:51,480 - INFO - User Transcribed: unlock the door
+2026-08-17 00:03:51,495 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:04:07,343 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:04:07,344 - INFO - Parsed Dict: {'actions': [{'action': 'unlock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:04:10,177 - INFO - Spoke response: Door Lock is now unlocked.
+2026-08-17 00:04:10,181 - INFO - Action executed and confirmed: Door Lock is now unlocked.
+2026-08-17 00:04:24,449 - INFO - User Transcribed: lock the door
+2026-08-17 00:04:24,462 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:04:26,945 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:04:26,945 - INFO - Parsed Dict: {'actions': [{'action': 'lock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:04:29,236 - INFO - Spoke response: Door Lock is now locked.
+2026-08-17 00:04:29,243 - INFO - Action executed and confirmed: Door Lock is now locked.
+2026-08-17 00:04:32,033 - INFO - User Transcribed: open the lights
+2026-08-17 00:04:32,043 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:04:36,034 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:04:36,034 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}, {'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:04:40,177 - INFO - Spoke response: Living Room Light is now on, and Kitchen Light is now on.
+2026-08-17 00:04:40,187 - INFO - Action executed and confirmed: Living Room Light is now on, and Kitchen Light is now on.
+2026-08-17 00:05:42,194 - INFO - User Transcribed: turn off lights
+2026-08-17 00:05:42,203 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:05:46,239 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:05:46,239 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}, {'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:05:50,356 - INFO - Spoke response: Living Room Light is now off, and Kitchen Light is now off.
+2026-08-17 00:05:50,367 - INFO - Action executed and confirmed: Living Room Light is now off, and Kitchen Light is now off.
+2026-08-17 00:05:53,092 - INFO - User Transcribed: there and on lights
+2026-08-17 00:05:53,095 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:05:57,239 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:05:57,239 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:06:01,349 - INFO - Spoke response: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:06:01,360 - INFO - Action executed and confirmed: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:06:04,345 - INFO - User Transcribed: turn on a c
+2026-08-17 00:06:04,348 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:06:06,690 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:06:06,691 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'ac', 'value': None}]}
+2026-08-17 00:06:08,868 - INFO - Spoke response: AC is now on.
+2026-08-17 00:06:08,879 - INFO - Action executed and confirmed: AC is now on.
+2026-08-17 00:06:13,520 - INFO - User Transcribed: a c twenty degrees
+2026-08-17 00:06:13,525 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:06:16,252 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:06:16,253 - INFO - Parsed Dict: {'actions': [{'action': 'set_temperature', 'target': 'ac', 'value': 20}]}
+2026-08-17 00:06:18,895 - INFO - Spoke response: AC set to 20 degrees.
+2026-08-17 00:06:18,902 - INFO - Action executed and confirmed: AC set to 20 degrees.
+2026-08-17 00:06:57,407 - INFO - User Transcribed: living room on
+2026-08-17 00:06:57,417 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:07:00,322 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:07:00,322 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:07:02,817 - INFO - Spoke response: Living Room Light is now on.
+2026-08-17 00:07:02,828 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-17 00:07:06,301 - INFO - User Transcribed: there are enough lights
+2026-08-17 00:07:06,304 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:07:11,975 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:07:11,975 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}, {'action': 'turn_on', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_on', 'target': 'ac', 'value': None}]}
+2026-08-17 00:07:17,474 - INFO - Spoke response: Living Room Light is now on, Kitchen Light is now on, and AC is now on.
+2026-08-17 00:07:17,483 - INFO - Action executed and confirmed: Living Room Light is now on, Kitchen Light is now on, and AC is now on.
+2026-08-17 00:07:20,233 - INFO - User Transcribed: in off lights
+2026-08-17 00:07:20,240 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:07:24,218 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:07:24,219 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}, {'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:07:28,299 - INFO - Spoke response: Living Room Light is now off, and Kitchen Light is now off.
+2026-08-17 00:07:28,311 - INFO - Action executed and confirmed: Living Room Light is now off, and Kitchen Light is now off.
+2026-08-17 00:07:32,267 - INFO - User Transcribed: living room on
+2026-08-17 00:07:32,273 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:07:34,881 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:07:34,881 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:07:37,322 - INFO - Spoke response: Living Room Light is now on.
+2026-08-17 00:07:37,326 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-17 00:07:40,068 - INFO - User Transcribed: kitchen on
+2026-08-17 00:07:40,072 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:07:43,122 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:07:43,123 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:07:45,497 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:07:45,501 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:09:26,380 - INFO - User Transcribed: kitchen of
+2026-08-17 00:09:26,386 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:09:28,867 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:09:28,868 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:09:31,162 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:09:31,172 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:09:33,722 - INFO - User Transcribed: kitchen off
+2026-08-17 00:09:33,736 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:09:36,253 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:09:36,254 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:09:38,489 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:09:38,494 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:09:43,144 - INFO - User Transcribed: kitchen on
+2026-08-17 00:09:43,153 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:09:45,564 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:09:45,564 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:09:47,894 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:09:47,905 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:09:49,437 - INFO - User Transcribed: and of
+2026-08-17 00:09:49,447 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:09:51,926 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:09:51,927 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:09:54,259 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:09:54,269 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:09:55,809 - INFO - User Transcribed: and off
+2026-08-17 00:09:55,820 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:09:59,614 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:09:59,615 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_off', 'target': 'ac', 'value': None}]}
+2026-08-17 00:10:03,371 - INFO - Spoke response: Kitchen Light is now off, and AC is now off.
+2026-08-17 00:10:03,382 - INFO - Action executed and confirmed: Kitchen Light is now off, and AC is now off.
+2026-08-17 00:10:06,373 - INFO - User Transcribed: kitchen on
+2026-08-17 00:10:06,376 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:10:08,872 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:10:08,872 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:10:11,206 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:10:11,218 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:10:13,004 - INFO - User Transcribed: kitchen of
+2026-08-17 00:10:13,009 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:10:15,550 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:10:15,551 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:10:17,853 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:10:17,856 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:10:48,425 - INFO - User Transcribed: living room on
+2026-08-17 00:10:48,439 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:10:50,930 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:10:50,931 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:10:53,366 - INFO - Spoke response: Living Room Light is now on.
+2026-08-17 00:10:53,377 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-17 00:10:55,180 - INFO - User Transcribed: figure i'm off
+2026-08-17 00:10:55,188 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:10:59,451 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:10:59,452 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}, {'action': 'lock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:11:03,566 - INFO - Spoke response: Living Room Light is now off, and Door Lock is now locked.
+2026-08-17 00:11:03,571 - INFO - Action executed and confirmed: Living Room Light is now off, and Door Lock is now locked.
+2026-08-17 00:11:05,795 - INFO - User Transcribed: having a room of
+2026-08-17 00:11:05,803 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:11:08,669 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:11:08,670 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:11:11,111 - INFO - Spoke response: Living Room Light is now on.
+2026-08-17 00:11:11,126 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-17 00:11:14,640 - INFO - User Transcribed: living room of
+2026-08-17 00:11:14,651 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:11:17,125 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:11:17,126 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:11:19,562 - INFO - Spoke response: Living Room Light is now on.
+2026-08-17 00:11:19,566 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-17 00:11:42,653 - INFO - User Transcribed: ac on
+2026-08-17 00:11:42,665 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:11:45,061 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:11:45,062 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'ac', 'value': None}]}
+2026-08-17 00:11:47,185 - INFO - Spoke response: AC is now on.
+2026-08-17 00:11:47,188 - INFO - Action executed and confirmed: AC is now on.
+2026-08-17 00:11:49,202 - INFO - User Transcribed: ac off
+2026-08-17 00:11:49,207 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:11:51,547 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:11:51,548 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'ac', 'value': None}]}
+2026-08-17 00:11:53,710 - INFO - Spoke response: AC is now off.
+2026-08-17 00:11:53,715 - INFO - Action executed and confirmed: AC is now off.
+2026-08-17 00:12:05,072 - INFO - User Transcribed: there and of kitchen late
+2026-08-17 00:12:05,076 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:12:08,207 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:12:08,208 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:12:10,545 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:12:10,548 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:12:13,792 - INFO - User Transcribed: burn off kitchen life
+2026-08-17 00:12:13,799 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:12:16,511 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:12:16,512 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:12:18,788 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:12:18,792 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:12:22,486 - INFO - User Transcribed: turn off living room life
+2026-08-17 00:12:22,490 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:12:25,415 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:12:25,416 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:12:27,853 - INFO - Spoke response: Living Room Light is now off.
+2026-08-17 00:12:27,865 - INFO - Action executed and confirmed: Living Room Light is now off.
+2026-08-17 00:12:47,877 - INFO - User Transcribed: huh
+2026-08-17 00:12:47,880 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:12:49,145 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:12:49,145 - INFO - Parsed Dict: {'actions': []}
+2026-08-17 00:13:34,772 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:13:34,772 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:13:36,038 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:13:36,045 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:13:36,046 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:13:41,607 - INFO - User Transcribed: kitchen on
+2026-08-17 00:13:41,619 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:13:54,555 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:13:54,556 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:13:56,897 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:13:56,907 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:13:58,576 - INFO - User Transcribed: turn off
+2026-08-17 00:13:58,582 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:01,141 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:01,142 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:14:03,420 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:14:03,430 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:14:05,463 - INFO - User Transcribed: kitchen on
+2026-08-17 00:14:05,470 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:08,156 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:08,157 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:14:10,488 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:14:10,498 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:14:12,262 - INFO - User Transcribed: chen or
+2026-08-17 00:14:12,267 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:14,809 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:14,809 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:14:17,142 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:14:17,147 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:14:18,716 - INFO - User Transcribed: and now
+2026-08-17 00:14:18,722 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:19,812 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:19,813 - INFO - Parsed Dict: {'actions': []}
+2026-08-17 00:14:24,785 - INFO - Spoke response: Sorry, I didn't catch a valid command. Could you try again?
+2026-08-17 00:14:24,803 - INFO - No valid actions parsed; spoke fallback response.
+2026-08-17 00:14:27,302 - INFO - User Transcribed: kitchen of
+2026-08-17 00:14:27,312 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:29,894 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:29,895 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:14:32,220 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:14:32,231 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:14:34,511 - INFO - User Transcribed: kitchen of
+2026-08-17 00:14:34,515 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:36,896 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:36,897 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:14:39,228 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:14:39,237 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:14:41,468 - INFO - User Transcribed: there are enough kitchen
+2026-08-17 00:14:41,475 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:44,131 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:44,131 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:14:46,462 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:14:46,474 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:14:48,257 - INFO - User Transcribed: chance
+2026-08-17 00:14:48,263 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:51,148 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:51,149 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:14:53,444 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:14:53,454 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:14:56,709 - INFO - User Transcribed: there and off key chain
+2026-08-17 00:14:56,719 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:14:59,669 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:14:59,670 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:15:02,062 - INFO - Spoke response: Door Lock is now unlocked.
+2026-08-17 00:15:02,068 - INFO - Action executed and confirmed: Door Lock is now unlocked.
+2026-08-17 00:15:07,177 - INFO - User Transcribed: there and off key chain
+2026-08-17 00:15:07,182 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:15:11,194 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:15:11,195 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}, {'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:15:15,255 - INFO - Spoke response: Living Room Light is now off, and Kitchen Light is now off.
+2026-08-17 00:15:15,266 - INFO - Action executed and confirmed: Living Room Light is now off, and Kitchen Light is now off.
+2026-08-17 00:15:17,301 - INFO - User Transcribed: and on good chance
+2026-08-17 00:15:17,308 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:15:20,624 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:15:20,625 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:15:23,028 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:15:23,031 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:15:43,026 - INFO - User Transcribed: huh
+2026-08-17 00:15:43,030 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:15:44,319 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:15:44,320 - INFO - Parsed Dict: {'actions': []}
+2026-08-17 00:15:49,365 - INFO - Spoke response: Sorry, I didn't catch a valid command. Could you try again?
+2026-08-17 00:15:49,376 - INFO - No valid actions parsed; spoke fallback response.
+2026-08-17 00:16:09,383 - INFO - User Transcribed: huh
+2026-08-17 00:16:09,387 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:16:10,565 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:16:10,566 - INFO - Parsed Dict: {'actions': []}
+2026-08-17 00:16:15,817 - INFO - Spoke response: Sorry, I didn't catch a valid command. Could you try again?
+2026-08-17 00:16:15,824 - INFO - No valid actions parsed; spoke fallback response.
+2026-08-17 00:16:19,516 - INFO - User Transcribed: then off good chance
+2026-08-17 00:16:19,522 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:16:22,641 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:16:22,642 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:16:24,948 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:16:24,959 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:16:28,380 - INFO - User Transcribed: there are enough kitchen name
+2026-08-17 00:16:28,385 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:16:31,661 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:16:31,662 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:16:34,198 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:16:34,206 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:16:37,215 - INFO - User Transcribed: burn off kitchen name
+2026-08-17 00:16:37,223 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:16:40,531 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:16:40,532 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:16:43,087 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:16:43,093 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:16:45,298 - INFO - User Transcribed: of get ten life
+2026-08-17 00:16:45,304 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:17:12,137 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:17:12,137 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:17:13,441 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:17:13,448 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:17:13,449 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:17:17,489 - INFO - User Transcribed: hey you agree
+2026-08-17 00:17:22,880 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:17:22,884 - INFO - Greeting detected and answered.
+2026-08-17 00:17:25,447 - INFO - User Transcribed: there and off kitchen life
+2026-08-17 00:17:25,456 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:17:29,837 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:17:29,837 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:17:33,912 - INFO - Spoke response: Kitchen Light is now off, and Living Room Light is now off.
+2026-08-17 00:17:33,919 - INFO - Action executed and confirmed: Kitchen Light is now off, and Living Room Light is now off.
+2026-08-17 00:17:36,676 - INFO - User Transcribed: my learn on kitchen late
+2026-08-17 00:17:36,691 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:17:39,385 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:17:39,385 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:17:41,718 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:17:41,728 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:17:44,914 - INFO - User Transcribed: there and off kitchen late
+2026-08-17 00:17:44,918 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:17:49,360 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:17:49,361 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:17:51,639 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:17:51,649 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:17:53,918 - INFO - User Transcribed: and on get late
+2026-08-17 00:17:53,921 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:17:56,680 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:17:56,680 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:17:58,959 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:17:58,963 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:18:00,926 - INFO - User Transcribed: kitchen off
+2026-08-17 00:18:00,936 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:18:03,512 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:18:03,512 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:18:05,789 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:18:05,799 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:18:07,135 - INFO - User Transcribed: on
+2026-08-17 00:18:07,147 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:18:09,692 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:18:09,693 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:18:12,023 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:18:12,027 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:18:13,552 - INFO - User Transcribed: then off
+2026-08-17 00:18:13,558 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:18:16,476 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:18:16,477 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:18:18,859 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:18:18,869 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:18:20,384 - INFO - User Transcribed: on
+2026-08-17 00:18:20,389 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:18:23,258 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:18:23,259 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:18:25,600 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:18:25,608 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:18:27,401 - INFO - User Transcribed: turn off
+2026-08-17 00:18:27,406 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:18:29,945 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:18:29,945 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:18:32,313 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:18:32,318 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:18:52,312 - INFO - User Transcribed: huh
+2026-08-17 00:18:52,313 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:18:53,608 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:18:53,609 - INFO - Parsed Dict: {'actions': []}
+2026-08-17 00:18:58,603 - INFO - Spoke response: Sorry, I didn't catch a valid command. Could you try again?
+2026-08-17 00:18:58,618 - INFO - No valid actions parsed; spoke fallback response.
+2026-08-17 00:20:43,070 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:20:43,070 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:20:44,189 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:20:44,196 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:20:44,197 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:20:47,068 - INFO - User Transcribed: hey yuri
+2026-08-17 00:20:52,483 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:20:52,486 - INFO - Greeting detected and answered.
+2026-08-17 00:20:54,007 - INFO - User Transcribed: turn on
+2026-08-17 00:20:54,018 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:20:56,598 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:20:56,598 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:20:58,933 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:20:58,943 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:21:00,726 - INFO - User Transcribed: kitchen on
+2026-08-17 00:21:00,736 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:03,284 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:03,284 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:21:05,610 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:21:05,615 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:21:07,647 - INFO - User Transcribed: kitchen on
+2026-08-17 00:21:07,654 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:10,018 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:10,019 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:21:12,354 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:21:12,366 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:21:13,891 - INFO - User Transcribed: ten on
+2026-08-17 00:21:13,904 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:16,474 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:16,475 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:21:18,756 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:21:18,766 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:21:21,503 - INFO - User Transcribed: thirteen off
+2026-08-17 00:21:21,513 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:24,086 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:24,087 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:21:26,363 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:21:26,373 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:21:28,657 - INFO - User Transcribed: kitchen on
+2026-08-17 00:21:28,668 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:31,289 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:31,290 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:21:33,571 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:21:33,583 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:21:35,355 - INFO - User Transcribed: kitchen off
+2026-08-17 00:21:35,360 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:37,858 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:37,859 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:21:40,137 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:21:40,147 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:21:43,334 - INFO - User Transcribed: living room on
+2026-08-17 00:21:43,340 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:45,878 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:45,879 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:21:48,318 - INFO - Spoke response: Living Room Light is now on.
+2026-08-17 00:21:48,329 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-17 00:21:50,876 - INFO - User Transcribed: living room off
+2026-08-17 00:21:50,886 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:21:53,420 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:21:53,420 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:21:55,847 - INFO - Spoke response: Living Room Light is now off.
+2026-08-17 00:21:55,858 - INFO - Action executed and confirmed: Living Room Light is now off.
+2026-08-17 00:21:57,637 - INFO - User Transcribed: locked door
+2026-08-17 00:21:57,646 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:00,079 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:00,080 - INFO - Parsed Dict: {'actions': [{'action': 'lock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:22:02,354 - INFO - Spoke response: Door Lock is now locked.
+2026-08-17 00:22:02,364 - INFO - Action executed and confirmed: Door Lock is now locked.
+2026-08-17 00:22:05,287 - INFO - User Transcribed: unlock the door
+2026-08-17 00:22:05,299 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:07,962 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:07,962 - INFO - Parsed Dict: {'actions': [{'action': 'unlock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:22:10,339 - INFO - Spoke response: Door Lock is now unlocked.
+2026-08-17 00:22:10,348 - INFO - Action executed and confirmed: Door Lock is now unlocked.
+2026-08-17 00:22:12,113 - INFO - User Transcribed: the the door
+2026-08-17 00:22:12,118 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:14,989 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:14,989 - INFO - Parsed Dict: {'actions': [{'action': 'lock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:22:17,269 - INFO - Spoke response: Door Lock is now locked.
+2026-08-17 00:22:17,272 - INFO - Action executed and confirmed: Door Lock is now locked.
+2026-08-17 00:22:19,793 - INFO - User Transcribed: thirty on lights
+2026-08-17 00:22:19,798 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:22,488 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:22,488 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:22:24,839 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:22:24,849 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:22:27,765 - INFO - User Transcribed: turn on lights
+2026-08-17 00:22:27,775 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:31,955 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:31,955 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:22:36,008 - INFO - Spoke response: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:22:36,011 - INFO - Action executed and confirmed: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:22:38,744 - INFO - User Transcribed: thirteen off lights
+2026-08-17 00:22:38,758 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:41,470 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:41,470 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:22:43,746 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:22:43,751 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:22:46,484 - INFO - User Transcribed: thirteen off lights
+2026-08-17 00:22:46,489 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:48,883 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:48,884 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:22:51,227 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:22:51,237 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:22:54,480 - INFO - User Transcribed: living room off
+2026-08-17 00:22:54,491 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:22:57,043 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:22:57,044 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:22:59,471 - INFO - Spoke response: Living Room Light is now off.
+2026-08-17 00:22:59,482 - INFO - Action executed and confirmed: Living Room Light is now off.
+2026-08-17 00:23:01,267 - INFO - User Transcribed: kitchen on
+2026-08-17 00:23:01,274 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:23:03,837 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:23:03,838 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:23:06,167 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:23:06,176 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:23:07,255 - INFO - User Transcribed: off
+2026-08-17 00:23:07,266 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:23:10,040 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:23:10,040 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:23:12,320 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:23:12,328 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:23:17,165 - INFO - User Transcribed: lock the door
+2026-08-17 00:23:17,171 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:23:19,558 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:23:19,559 - INFO - Parsed Dict: {'actions': [{'action': 'lock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:23:21,837 - INFO - Spoke response: Door Lock is now locked.
+2026-08-17 00:23:21,846 - INFO - Action executed and confirmed: Door Lock is now locked.
+2026-08-17 00:23:24,849 - INFO - User Transcribed: thirteen on the lights
+2026-08-17 00:23:24,856 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:23:29,057 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:23:29,057 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}, {'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:23:33,128 - INFO - Spoke response: Living Room Light is now on, and Kitchen Light is now on.
+2026-08-17 00:23:33,138 - INFO - Action executed and confirmed: Living Room Light is now on, and Kitchen Light is now on.
+2026-08-17 00:23:35,421 - INFO - User Transcribed: an off the lights
+2026-08-17 00:23:35,433 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:23:38,034 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:23:38,035 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:23:40,463 - INFO - Spoke response: Living Room Light is now off.
+2026-08-17 00:23:40,473 - INFO - Action executed and confirmed: Living Room Light is now off.
+2026-08-17 00:23:44,155 - INFO - User Transcribed: thirteen off the lights
+2026-08-17 00:23:44,164 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:23:48,473 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:23:48,474 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:23:52,537 - INFO - Spoke response: Kitchen Light is now off, and Living Room Light is now off.
+2026-08-17 00:23:52,544 - INFO - Action executed and confirmed: Kitchen Light is now off, and Living Room Light is now off.
+2026-08-17 00:24:12,546 - INFO - User Transcribed: hi
+2026-08-17 00:24:17,928 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:24:17,933 - INFO - Greeting detected and answered.
+2026-08-17 00:24:37,947 - INFO - User Transcribed: ac on
+2026-08-17 00:24:37,960 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:24:40,381 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:24:40,382 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'ac', 'value': None}]}
+2026-08-17 00:24:42,506 - INFO - Spoke response: AC is now on.
+2026-08-17 00:24:42,516 - INFO - Action executed and confirmed: AC is now on.
+2026-08-17 00:24:46,385 - INFO - User Transcribed: ac twenty degrees
+2026-08-17 00:24:46,394 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:24:49,038 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:24:49,039 - INFO - Parsed Dict: {'actions': [{'action': 'set_temperature', 'target': 'ac', 'value': 20}]}
+2026-08-17 00:24:51,675 - INFO - Spoke response: AC set to 20 degrees.
+2026-08-17 00:24:51,685 - INFO - Action executed and confirmed: AC set to 20 degrees.
+2026-08-17 00:24:53,716 - INFO - User Transcribed: kitchen
+2026-08-17 00:24:53,731 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:24:56,328 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:24:56,329 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:24:58,659 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:24:58,663 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:24:59,965 - INFO - User Transcribed: an off
+2026-08-17 00:24:59,969 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:25:03,054 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:25:03,054 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:25:05,354 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:25:05,358 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:25:25,363 - INFO - User Transcribed: hey
+2026-08-17 00:25:30,749 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:25:30,754 - INFO - Greeting detected and answered.
+2026-08-17 00:27:18,865 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:27:18,865 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:27:20,196 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:27:20,214 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:27:20,218 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:27:23,072 - INFO - User Transcribed: hey yuri
+2026-08-17 00:27:28,542 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:27:28,554 - INFO - Greeting detected and answered.
+2026-08-17 00:27:31,036 - INFO - User Transcribed: on ac
+2026-08-17 00:27:31,047 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:27:33,462 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:27:33,462 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'ac', 'value': None}]}
+2026-08-17 00:27:35,588 - INFO - Spoke response: AC is now on.
+2026-08-17 00:27:35,597 - INFO - Action executed and confirmed: AC is now on.
+2026-08-17 00:27:38,592 - INFO - User Transcribed: thirteen off lights
+2026-08-17 00:27:38,597 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:27:41,495 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:27:41,496 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:27:43,825 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:27:43,829 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:28:04,261 - INFO - User Transcribed: hey
+2026-08-17 00:28:09,685 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:28:09,689 - INFO - Greeting detected and answered.
+2026-08-17 00:28:29,683 - INFO - User Transcribed: hi
+2026-08-17 00:28:35,076 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:28:35,082 - INFO - Greeting detected and answered.
+2026-08-17 00:28:37,545 - INFO - User Transcribed: the turn on lights
+2026-08-17 00:28:37,550 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:28:40,776 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:28:40,777 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:28:43,085 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:28:43,089 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:28:48,513 - INFO - Out-of-vocabulary word(s) in utterance: 'turn on [unk] lights'
+2026-08-17 00:28:48,514 - INFO - User Transcribed: turn on lights
+2026-08-17 00:28:48,522 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:28:53,908 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:28:53,909 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:28:58,090 - INFO - Spoke response: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:28:58,096 - INFO - Action executed and confirmed: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:29:18,115 - INFO - User Transcribed: hey
+2026-08-17 00:29:23,518 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:29:23,522 - INFO - Greeting detected and answered.
+2026-08-17 00:30:00,656 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:30:00,656 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:30:01,755 - INFO - Available input devices: ['[0] Microsoft Sound Mapper - Input', '[1] Microphone (3- Logitech USB Hea', '[2] Microphone (High Definition Aud']
+2026-08-17 00:30:01,755 - INFO - Using default input device: [1] Microphone (3- Logitech USB Hea
+2026-08-17 00:30:01,784 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:30:01,792 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:30:01,793 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:30:04,651 - INFO - User Transcribed: hey yuri
+2026-08-17 00:30:10,074 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:30:10,085 - INFO - Greeting detected and answered.
+2026-08-17 00:30:11,861 - INFO - User Transcribed: on lights
+2026-08-17 00:30:11,870 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:30:14,947 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:30:14,948 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:30:17,333 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:30:17,343 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:30:20,342 - INFO - Out-of-vocabulary word(s) in utterance: 'turn on [unk]'
+2026-08-17 00:30:20,343 - INFO - User Transcribed: turn on
+2026-08-17 00:30:20,353 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:30:22,893 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:30:22,893 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:30:25,224 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:30:25,235 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:30:26,049 - INFO - User Transcribed: lights
+2026-08-17 00:30:26,065 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:30:28,602 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:30:28,603 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:30:30,945 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:30:30,956 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:30:32,730 - INFO - User Transcribed: off lights
+2026-08-17 00:30:32,743 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:30:35,338 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:30:35,339 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:30:37,619 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:30:37,625 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:30:40,616 - INFO - User Transcribed: turn on lights
+2026-08-17 00:30:40,629 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:30:44,752 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:30:44,753 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:30:48,869 - INFO - Spoke response: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:30:48,879 - INFO - Action executed and confirmed: Kitchen Light is now on, and Living Room Light is now on.
+2026-08-17 00:30:52,053 - INFO - User Transcribed: turn off lights
+2026-08-17 00:30:52,059 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:30:56,174 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:30:56,175 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}, {'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:31:00,238 - INFO - Spoke response: Kitchen Light is now off, and Living Room Light is now off.
+2026-08-17 00:31:00,243 - INFO - Action executed and confirmed: Kitchen Light is now off, and Living Room Light is now off.
+2026-08-17 00:31:02,012 - INFO - User Transcribed: ac on
+2026-08-17 00:31:02,025 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:31:04,639 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:31:04,640 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'ac', 'value': None}]}
+2026-08-17 00:31:06,762 - INFO - Spoke response: AC is now on.
+2026-08-17 00:31:06,772 - INFO - Action executed and confirmed: AC is now on.
+2026-08-17 00:31:10,734 - INFO - User Transcribed: and off ac
+2026-08-17 00:31:10,748 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:31:13,367 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:31:13,367 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'ac', 'value': None}]}
+2026-08-17 00:31:15,497 - INFO - Spoke response: AC is now off.
+2026-08-17 00:31:15,506 - INFO - Action executed and confirmed: AC is now off.
+2026-08-17 00:31:20,156 - INFO - User Transcribed: ac twenty degrees
+2026-08-17 00:31:20,165 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:31:22,707 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:31:22,708 - INFO - Parsed Dict: {'actions': [{'action': 'set_temperature', 'target': 'ac', 'value': 20}]}
+2026-08-17 00:31:25,350 - INFO - Spoke response: AC set to 20 degrees.
+2026-08-17 00:31:25,361 - INFO - Action executed and confirmed: AC set to 20 degrees.
+2026-08-17 00:31:28,095 - INFO - User Transcribed: ac sixteen degrees
+2026-08-17 00:31:28,109 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:31:30,692 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:31:30,692 - INFO - Parsed Dict: {'actions': [{'action': 'set_temperature', 'target': 'ac', 'value': 16}]}
+2026-08-17 00:31:33,426 - INFO - Spoke response: AC set to 16 degrees.
+2026-08-17 00:31:33,435 - INFO - Action executed and confirmed: AC set to 16 degrees.
+2026-08-17 00:31:36,616 - INFO - Out-of-vocabulary word(s) in utterance: 'ac [unk] degrees'
+2026-08-17 00:31:36,617 - INFO - User Transcribed: ac degrees
+2026-08-17 00:31:36,627 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:31:39,139 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:31:39,140 - INFO - Parsed Dict: {'actions': [{'action': 'set_temperature', 'target': 'ac', 'value': 24}]}
+2026-08-17 00:31:42,034 - INFO - Spoke response: AC set to 24 degrees.
+2026-08-17 00:31:42,040 - INFO - Action executed and confirmed: AC set to 24 degrees.
+2026-08-17 00:31:44,772 - INFO - Out-of-vocabulary word(s) in utterance: '[unk] degrees'
+2026-08-17 00:31:44,773 - INFO - User Transcribed: degrees
+2026-08-17 00:31:44,777 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:31:47,308 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:31:47,309 - INFO - Parsed Dict: {'actions': [{'action': 'set_temperature', 'target': 'ac', 'value': 24}]}
+2026-08-17 00:32:48,585 - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\ARNOLD\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-08-17 00:32:48,585 - INFO - Using writeable comtypes cache directory: 'C:\Users\ARNOLD\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-08-17 00:32:49,704 - INFO - Vosk STT Engine Initialized for Real-Time Processing.
+2026-08-17 00:32:49,712 - INFO - HTTP Request: GET http://127.0.0.1:11434/api/tags "HTTP/1.1 200 OK"
+2026-08-17 00:32:49,713 - INFO - System initialized. Yuri is listening for the wake word...
+2026-08-17 00:32:52,581 - INFO - User Transcribed: hey yuri
+2026-08-17 00:32:58,020 - INFO - Spoke response: Hello! I'm Yuri, your home assistant. How can I help?
+2026-08-17 00:32:58,031 - INFO - Greeting detected and answered.
+2026-08-17 00:33:00,044 - INFO - User Transcribed: turn off
+2026-08-17 00:33:00,048 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:02,594 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:02,595 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:33:04,872 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:33:04,879 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:33:07,868 - INFO - User Transcribed: thirty on lights
+2026-08-17 00:33:07,875 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:10,609 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:10,610 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:33:12,940 - INFO - Spoke response: Kitchen Light is now on.
+2026-08-17 00:33:12,950 - INFO - Action executed and confirmed: Kitchen Light is now on.
+2026-08-17 00:33:15,670 - INFO - User Transcribed: thirteen on ac
+2026-08-17 00:33:15,676 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:18,132 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:18,132 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'ac', 'value': None}]}
+2026-08-17 00:33:20,264 - INFO - Spoke response: AC is now on.
+2026-08-17 00:33:20,276 - INFO - Action executed and confirmed: AC is now on.
+2026-08-17 00:33:23,463 - INFO - User Transcribed: kitchen off
+2026-08-17 00:33:23,472 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:26,236 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:26,236 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:33:28,515 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:33:28,525 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:33:30,033 - INFO - User Transcribed: ac off
+2026-08-17 00:33:30,038 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:32,435 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:32,435 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'ac', 'value': None}]}
+2026-08-17 00:33:34,560 - INFO - Spoke response: AC is now off.
+2026-08-17 00:33:34,569 - INFO - Action executed and confirmed: AC is now off.
+2026-08-17 00:33:36,346 - INFO - User Transcribed: living room on
+2026-08-17 00:33:36,356 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:38,934 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:38,935 - INFO - Parsed Dict: {'actions': [{'action': 'turn_on', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:33:41,378 - INFO - Spoke response: Living Room Light is now on.
+2026-08-17 00:33:41,384 - INFO - Action executed and confirmed: Living Room Light is now on.
+2026-08-17 00:33:42,704 - INFO - User Transcribed: room off
+2026-08-17 00:33:42,714 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:45,295 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:45,296 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'kitchen_light', 'value': None}]}
+2026-08-17 00:33:47,631 - INFO - Spoke response: Kitchen Light is now off.
+2026-08-17 00:33:47,639 - INFO - Action executed and confirmed: Kitchen Light is now off.
+2026-08-17 00:33:50,386 - INFO - User Transcribed: living room off
+2026-08-17 00:33:50,401 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:52,990 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:52,990 - INFO - Parsed Dict: {'actions': [{'action': 'turn_off', 'target': 'living_room_light', 'value': None}]}
+2026-08-17 00:33:55,374 - INFO - Spoke response: Living Room Light is now off.
+2026-08-17 00:33:55,379 - INFO - Action executed and confirmed: Living Room Light is now off.
+2026-08-17 00:33:57,152 - INFO - User Transcribed: unlock door
+2026-08-17 00:33:57,162 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:33:59,563 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:33:59,563 - INFO - Parsed Dict: {'actions': [{'action': 'unlock', 'target': 'door_lock', 'value': None}]}
+2026-08-17 00:34:01,949 - INFO - Spoke response: Door Lock is now unlocked.
+2026-08-17 00:34:01,953 - INFO - Action executed and confirmed: Door Lock is now unlocked.
+2026-08-17 00:34:03,225 - INFO - User Transcribed: lock
+2026-08-17 00:34:03,231 - INFO - Processing transcribed speech as a command (no wake word required).
+2026-08-17 00:34:05,597 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-08-17 00:34:05,597 - INFO - Parsed Dict: {'actions': [{'action': 'lock', 'target': 'door_lock', 'value': None}]}

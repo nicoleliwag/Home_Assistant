@@ -7,6 +7,43 @@ import time
 from vosk import Model, KaldiRecognizer
 import os
 
+# Vosk's default mode does free-form dictation: it searches its ENTIRE
+# vocabulary (tens of thousands of words) on every utterance. This app only
+# ever needs a small, fixed command grammar (rooms/devices, on/off,
+# lock/unlock, temperature numbers, greetings, the wake word). Constraining
+# Vosk to just this vocabulary via KaldiRecognizer's grammar argument means
+# it's only ever choosing between ~60 known words instead of its whole
+# dictionary, which is a big accuracy win for exactly this kind of narrow,
+# command-driven use case.
+#
+# Trade-off: anything NOT in this list gets recognized as "[unk]" rather
+# than transcribed freely. That's fine here since out-of-vocabulary speech
+# was never going to produce a valid command anyway. If you add new
+# rooms/devices/actions to ai_engine.py's system prompt later, add the
+# matching words here too, or Vosk will hear them as [unk].
+COMMAND_VOCABULARY = [
+    # wake word / greetings (must match main.py's GREETING_WORDS + "yuri")
+    "yuri", "hi", "hello", "hey", "yo", "sup", "greetings",
+    "good", "morning", "afternoon", "evening",
+    # rooms / devices
+    "kitchen", "living", "room", "light", "lights",
+    "ac", "air", "conditioner", "door",
+    # actions / states
+    "turn", "set", "lock", "unlock", "locked", "unlocked",
+    "on", "off", "degree", "degrees", "temperature", "temp",
+    # numbers, word form (Vosk transcribes spoken numbers as separate
+    # tokens, e.g. "twenty four", not digits) -- covers a practical AC range
+    "zero", "one", "two", "three", "four", "five", "six", "seven",
+    "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen",
+    "fifteen", "sixteen", "seventeen", "eighteen", "nineteen",
+    "twenty", "thirty",
+    # connective / filler words
+    "the", "a", "an", "to", "and", "please", "can", "you",
+    # catch-all for anything outside this vocabulary
+    "[unk]",
+]
+
+
 class VoicePipeline:
     def __init__(self):
         # 1. Pick TTS voice/rate settings once (used to configure a fresh engine per utterance --
@@ -28,7 +65,9 @@ class VoicePipeline:
             raise FileNotFoundError(error_msg)
 
         self.model = Model(model_path)
-        self.recognizer = KaldiRecognizer(self.model, 16000)
+        # Grammar-constrained recognizer -- see COMMAND_VOCABULARY note above.
+        self.recognizer = KaldiRecognizer(self.model, 16000, json.dumps(COMMAND_VOCABULARY))
+        self.recognizer.SetWords(True)  # attach per-word confidence, useful for debugging misfires in the log
         
         # 3. Initialize PyAudio Stream with optimized buffer size for real-time processing
         self.p = pyaudio.PyAudio()
@@ -57,7 +96,15 @@ class VoicePipeline:
                     result = json.loads(self.recognizer.Result())
                     text = result.get("text", "").strip()
                     if text:
-                        return text
+                        if "[unk]" in text:
+                            # Word(s) fell outside COMMAND_VOCABULARY. Log the
+                            # raw hit so the vocabulary can be extended later,
+                            # then strip the marker so it doesn't get treated
+                            # as literal text by the greeting/AI parsing.
+                            logging.info(f"Out-of-vocabulary word(s) in utterance: {text!r}")
+                            text = " ".join(w for w in text.split() if w != "[unk]").strip()
+                        if text:
+                            return text
                 else:
                     # Optional: Check partial results for instant feedback if needed, 
                     # but returning on AcceptWaveform ensures clean sentences.

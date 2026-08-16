@@ -16,6 +16,7 @@ class IntentSchema(BaseModel):
 class AIEngine:
     def __init__(self):
         self.model = "qwen2.5:1.5b"
+        self._ensure_model_available()
         self.system_prompt = """
         You are Yuri, an offline AI home assistant.
         Extract the intent from the user's input and map it to smart home actions.
@@ -32,8 +33,21 @@ class AIEngine:
           target temperature in Celsius (e.g. "AC 24 degrees" -> value 24).
           Setting a temperature always means the AC should be on.
 
+        SHORTHAND RULE: users often drop the word "light" and/or "turn" and
+        just name the room plus on/off (e.g. "kitchen off", "living room on",
+        "kitchen on please"). Whenever a room name ("kitchen" / "living room")
+        appears WITHOUT the word "AC"/"air conditioner"/"temperature" nearby,
+        it always refers to that room's LIGHT ("kitchen_light" /
+        "living_room_light") -- never the AC, even if no explicit target
+        word like "light" is stated. Only use "ac" as the target when the
+        input actually says "AC" / "air conditioner" / "temperature"/"degrees".
+
         Examples (input -> output action):
         "turn on the kitchen light" -> {"action": "turn_on", "target": "kitchen_light", "value": null}
+        "kitchen off" -> {"action": "turn_off", "target": "kitchen_light", "value": null}
+        "kitchen on" -> {"action": "turn_on", "target": "kitchen_light", "value": null}
+        "living room off" -> {"action": "turn_off", "target": "living_room_light", "value": null}
+        "living room on" -> {"action": "turn_on", "target": "living_room_light", "value": null}
         "turn on AC" -> {"action": "turn_on", "target": "ac", "value": null}
         "turn off AC" -> {"action": "turn_off", "target": "ac", "value": null}
         "AC 24 degrees" / "set the AC to 24 degrees" -> {"action": "set_temperature", "target": "ac", "value": 24}
@@ -43,6 +57,36 @@ class AIEngine:
         Output ONLY valid JSON matching this exact schema, and nothing else:
         {"actions": [{"action": "turn_on", "target": "kitchen_light", "value": null}]}
         """
+
+    def _ensure_model_available(self):
+        """Verify Ollama is running and that self.model is pulled locally.
+
+        On a fresh device, Ollama may not be installed/running, or the
+        model may simply never have been downloaded (models aren't part of
+        the codebase -- 'ollama pull <model>' is a separate, per-machine
+        step). If we don't check this up front, every single command
+        silently fails inside parse_intent()'s try/except and the user just
+        sees a generic 'didn't catch that' fallback -- which looks exactly
+        like a wake-word/greeting-only bug, not a missing-model bug.
+        """
+        try:
+            local = ollama.list()
+            installed = {
+                m.get("model") or m.get("name")
+                for m in local.get("models", [])
+            }
+            if self.model not in installed:
+                logging.info(f"Model '{self.model}' not found locally. Pulling it now (one-time download)...")
+                ollama.pull(self.model)
+                logging.info(f"Model '{self.model}' pulled successfully.")
+        except Exception as e:
+            raise RuntimeError(
+                f"Could not reach Ollama or prepare model '{self.model}'.\n"
+                f"On this device, make sure:\n"
+                f"  1. Ollama is installed and running (try 'ollama serve').\n"
+                f"  2. The model is pulled: run 'ollama pull {self.model}'.\n"
+                f"Details: {e}"
+            )
 
     def parse_intent(self, text: str) -> dict:
         """Sends text to Ollama and returns structured Python dictionary."""
